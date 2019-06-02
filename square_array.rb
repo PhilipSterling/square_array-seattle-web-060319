@@ -1,7 +1,8 @@
 def square_array(array)
   # your code here
   array.each do |n|
-    text = n**2
-    n = text
+    puts n
   end
 end
+array = [1,2,3,4]
+square_array(array)
