@@ -1,8 +1,8 @@
 def square_array(array)
   # your code here
   array.each do |n|
-  text = "Current number is: #{n}"
-  puts text
+  text = n**2
+  n = text
 end
 array = [1,2,3]
 square_array(array)
