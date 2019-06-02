@@ -5,3 +5,4 @@ def square_array(array)
 end
 array = [1,2,3]
 square_array(array)
+puts array[1]
