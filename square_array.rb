@@ -1,7 +1,8 @@
 def square_array(array)
   # your code here
-  array.each do |x| x=x**2
-  end
+  array.each do |n|
+  text = "Current number is: #{n}"
+  puts text
 end
 array = [1,2,3]
 square_array(array)
